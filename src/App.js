@@ -111,7 +111,7 @@ function App() {
           title="Scenario 6: Fetch API"
           description={<ul>
             <li><code>jest.spyOn(global, "fetch")</code> to mock <code>fetch</code> implementation</li>
-            <li><code>await wait(() => getByTestId("my-async-element"))</code> to wait until element is visible</li>
+            <li><code>await wait(() = getByTestId("my-async-element"))</code> to wait until element is visible</li>
             <li><code>global.fetch.mockClear</code> to clear mock after test</li>
             <li><code>global.fetch.mock.calls</code> returns an array of function invocations, which in turn returns an array with the <code>args</code> used in each invocation</li>
           </ul>}
